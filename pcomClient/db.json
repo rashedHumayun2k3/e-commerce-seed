@@ -1,0 +1,94 @@
+{
+    "Categories": [
+      {
+        "CategoryId": 1001,
+        "CategoryName":"Computer & Accessories",
+        "CategoryAttribute":[
+        {
+            "AttributeId": 1,
+            "AttributeName": "Color",
+            "AttributeValues":[
+                {
+                    "AttibuteValueId":501,
+                    "AttibuteValue":"Red"
+                },
+                {
+                    "AttibuteValueId":502,
+                    "AttibuteValue":"Green"
+                },
+                {
+                    "AttibuteValueId":503,
+                    "AttibuteValue":"Blue"
+                }
+            ]
+        },
+        {
+            "AttributeId": 2,
+            "AttributeName": "Size",
+            "AttributeValues":[
+                {
+                    "AttibuteValueId":504,
+                    "AttibuteValue":"Small"
+                },
+                {
+                    "AttibuteValueId":505,
+                    "AttibuteValue":"Large"
+                },
+                {
+                    "AttibuteValueId":506,
+                    "AttibuteValue":"Extra Large"
+                }
+            ]
+        }
+        ]
+
+      }
+     
+    ],
+    "ProductList": [
+              {
+                "ProductId":10001,
+                "ProductName":"Computer",
+                "ProductDetails":"This is product details",
+                "Thumbnail":"https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+                "CategoryTitle":"",
+                "Price": 200,
+                "AttributeValueList":[{
+                        "AttibuteValueId":501
+                    },
+                    {
+                        "AttibuteValueId":502
+                    },
+                    {
+                        "AttibuteValueId":503
+                    }]
+              },
+              {
+                "ProductId":10002,
+                "CategoryId": 502,
+                "ProductName":"Laptop",
+                "ProductDetails":"This is product details 2",
+                "Thumbnail":"https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+                "CategoryTitle":"",
+                "Price": 100,
+                "AttributeValueList":[{
+                    "AttibuteValueId":501
+                },
+                {
+                    "AttibuteValueId":502
+                }]
+              },
+              {
+                "ProductId":10003,
+                "CategoryId": 503,
+                "ProductName":"Mouse",
+                "ProductDetails":"This is mouse details",
+                "Thumbnail":"https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+                "CategoryTitle":"",
+                "Price": 300,
+                "AttributeValueList":[{
+                    "AttibuteValueId":502
+                }]
+              }
+      ]
+  }

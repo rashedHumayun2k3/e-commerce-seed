@@ -1,0 +1,9 @@
+   .owl-item{
+    width: 236px !important;
+    height: 400px;
+}
+.product-image{
+    max-height: 100px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}

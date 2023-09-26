@@ -1,0 +1,21 @@
+.search-box-stack{
+    width: 100%;
+}
+.search-box-stack fieldset{
+    border: none !important;
+}
+.search-box-stack .MuiInputBase-root{
+    height: 44px;
+}
+.search-box-stack .hm-searchbox input{
+    height: auto;
+}
+
+.search-box-stack .nice-select.select-search-category{
+    padding-left: 0px !important;
+}
+
+.tob-bar-search-input label{
+    font-size: 14px;
+    margin-top: -4px;
+}

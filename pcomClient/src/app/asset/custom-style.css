@@ -1,0 +1,111 @@
+.is-show{
+    display: block !important;
+}
+
+.single-item-width{
+    width: 236px;
+}
+.product-list-flex{
+    display: flex;
+}
+.product-image {
+    min-height: 150px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.login-title {
+    width: 810px;
+    margin: 50px auto 15px;
+    height: 26px;
+    line-height: 26px;
+}
+.login-title h3 {
+    font-size: 22px;
+    color: #424242;
+    font-weight: 400;
+}
+.login .mod-login {
+    padding: 25px 50px 50px 25px;
+}
+.mod-login {
+    width: 810px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 25px 50px;
+    background-color: #fed700;
+    color: #757575;
+}
+.login-other {
+    float: right;
+    margin-top: -26px;
+    color: #757575;
+}
+.custom-li-anchor{
+    height: 25px !important;
+    line-height: 29px !important;
+    text-decoration: none !important;
+    color: #656565 !important;
+    cursor: 'pointer';
+}
+.cat-mega-menu {
+    width: 240px !important;
+}
+li.right-menu .cat-mega-menu > li, li.right-menu .cat-mega-menu-2 > li
+{
+    width: 100% !important;
+    padding: 0px 10px 0px 10px !important;
+}
+
+.cat-mega-menu-2nd-child {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #ffffff;
+    z-index: 999;
+    width: 220px;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    border: 1px solid #ededed;
+    box-shadow: 4px 4px 4px -3px #808080;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.col-filter-part{
+    border-right: 2px solid #ddd;
+    word-break: break-word;
+    width: 200px!important;
+    margin-right: 0!important;
+}
+
+.col-product-part {
+    width: calc(100% - 200px);
+}
+.col-product-child{
+    padding: 20px;
+}
+.flex-direction{
+    flex-direction: row-reverse;
+}
+.a-size-base {
+    font-size: 14px!important;
+    line-height: 20px!important;
+}
+.gridItem-produt{
+    float: left
+}
+
+.box-product {
+    height: 373px;
+    margin: 24px 0 16px;
+    overflow: hidden;
+    padding: 0 8px;
+    position: relative;
+    width: 250px;
+}
