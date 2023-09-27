@@ -30,8 +30,9 @@ Install my-project with npm
  npm install
  npm run dev (for development server)
  npm run build (for Production)
- npm run preview (To View Production Server )
+ npm run preview (To View Production Server )  
+```
 
-**Screen shots**
-![Screenshot 1](screenshots/screenshot1.png)
+**Screenshot**
+
   
