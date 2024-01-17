@@ -1,21 +1,38 @@
 **Authors**
+Md Humayun Rashed
+Full-Stack Software Developer
 
 **Features**
+- **Backend:**
+  - [.NET 6](https://dotnet.microsoft.com/download/dotnet/6.0)
+  - [Entity Framework](https://docs.microsoft.com/en-us/ef/)
+  - [AutoMapper](https://automapper.org/)
+  - [ILogger](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/)
+  - SQL Server
+  - MongoDB
+  - Hangfire
 
-**Tech**
-- Nextjs 13  
-- tailwind css  
-- Redux toolkit  
-- .NET Core  
-- AutoMapper  
-- Hangfire  
-- SQL Server
+- **Frontend:**
+  - [Next.js](https://nextjs.org/)
+
+## Frameworks
+
+- [Entity Framework](https://docs.microsoft.com/en-us/ef/)
+- [AutoMapper](https://automapper.org/)
+
+## Database Connections
+
+- **SQL Server:**
+  - [Connection String Format](https://www.connectionstrings.com/sql-server/)
   
+- **MongoDB:**
+  - [MongoDB Connection String](https://docs.mongodb.com/manual/reference/connection-string/)
+
 **Client Side Feature**
 - Tree Navigation
 - View Product & Category 
-- view product related to specific category 
-- view dynamic pages detail using material UI 
+- View products related to a specific category 
+- view dynamic page detail using material UI 
 - Product Filtering option
   
 **Connection Settings**
